@@ -108,15 +108,6 @@
     "geo": "上海市 上海 | China Telecom (Group)"
   },
   {
-    "ip_port": "58.41.12.178:8006",
-    "ip": "58.41.12.178",
-    "port": "8006",
-    "version": "",
-    "max_client": "",
-    "current_conn": "",
-    "geo": "上海市 上海 | China Telecom (Group)"
-  },
-  {
     "ip_port": "58.41.15.52:8006",
     "ip": "58.41.15.52",
     "port": "8006",
@@ -171,17 +162,8 @@
     "geo": "上海市 上海 | China Telecom (Group)"
   },
   {
-    "ip_port": "116.232.68.120:8881",
-    "ip": "116.232.68.120",
-    "port": "8881",
-    "version": "",
-    "max_client": "",
-    "current_conn": "",
-    "geo": "上海市 上海 | China Telecom (Group)"
-  },
-  {
-    "ip_port": "116.237.13.127:8881",
-    "ip": "116.237.13.127",
+    "ip_port": "116.232.143.73:8881",
+    "ip": "116.232.143.73",
     "port": "8881",
     "version": "",
     "max_client": "",
@@ -192,15 +174,6 @@
     "ip_port": "116.237.84.65:4022",
     "ip": "116.237.84.65",
     "port": "4022",
-    "version": "",
-    "max_client": "",
-    "current_conn": "",
-    "geo": "上海市 上海 | China Telecom (Group)"
-  },
-  {
-    "ip_port": "116.237.85.146:8881",
-    "ip": "116.237.85.146",
-    "port": "8881",
     "version": "",
     "max_client": "",
     "current_conn": "",
