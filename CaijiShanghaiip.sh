@@ -93,7 +93,7 @@ mkdir -p ip txt template
 case $city_choice in
     1)
         city="Shanghai_dianxin"
-        stream="rtp/233.18.204.51:5140/"
+        stream="rtp/233.18.204.51:5140"
         ;;
     2)
         city="Beijing_dianxin"
@@ -337,6 +337,8 @@ function tokb(s){
 
 # 保存tmp_speed给全局合并使用
 cp "$result_ip" "ip/tmp_speed_${city}.txt"
+# 新增：导出测速达标的IP列表，用于网页查看
+cp "$result_ip" "ip/success_${city}_ip.txt"
 
 log_print "========= ${city} 测速排序结果 ========="
 cat "${result_ip}" | tee -a "${LOG_FILE}"
@@ -412,4 +414,4 @@ cp zubo.enc dist/
 # 将zubo.txt复制重命名为zubo.m3u放到dist，供播放器读取
 cp zubo.txt dist/zubo.m3u
 # 如需保留明文zubo.txt到CF，取消下面这行注释
-# cp zubo.txt dist/
+# cp zubo.txt dist/ . 保留原来的所有功能
